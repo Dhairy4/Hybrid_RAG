@@ -6,8 +6,10 @@ pdf = load_pdf("src/Artifical Intelligence.pdf")
 
 chunked = Split_Documents(pdf)
 
-# print(chunked)
 print(len(chunked))
+
+# import json
+# json.dump(chunked, open("chunks.json", "w"), indent=4)
 
 
 

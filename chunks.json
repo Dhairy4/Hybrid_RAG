@@ -1,2 +1,80 @@
 [
-  
+    {
+        "id": null,
+        "metadata": {},
+        "page_content": "w.e.f. 2024-25 https://syllabus.gtu.ac.in/ Page 1 of 5 \n \nGUJARAT TECHNOLOGICAL UNIVERSITY \nProgram Name: Bachelor of Engineering \nLevel: UG  \nSubject Code: BE05000151 \nSubject Name:  Artificial Intelligence  \n \n \nw. e. f. Academic Year: 2024-25 \nSemester: 5 \nCategory of the Course: Professional Core Course \n \nPrerequisite: Data Structures, Basic mathematics, Programming skills \nRationale: AI and its techniques are being used in many areas which directly affect human  life. \nVarious techniques for encoding knowledge in computer systems such as Predicate Logic, \nProduction rules, Semantic networks find application in real world problems. The fields \nof AI such as Game Playing, Natural Language Processing. \n \nCourse Outcomes: \nSr. No. CO statement Marks% \nweightage \nCO-1 Understand the search technique procedures applied to real world problems R, U \nCO-2 Understand and use various types of logic and knowledge representation \nschemes. \nR, A \nCO-3 Understand NLP and LLMs U, A",
+        "type": "Document"
+    },
+    {
+        "id": null,
+        "metadata": {},
+        "page_content": "CO-2 Understand and use various types of logic and knowledge representation \nschemes. \nR, A \nCO-3 Understand NLP and LLMs U, A \nCO-4 Gain knowledge in AI Applications and advances in Artificial Intelligence U, A \nCO-5 Use Prolog Programming language using predicate logic R, U, A \n \n Teaching and Examination Scheme: \n \nTeaching / Learning Scheme \n(in Hours per semester) Total \nCredits \n \nAssessment Pattern and Marks \nTotal  \nMarks L T P PBL \nTotal no of \nhours per \nsemester \nTheory Tutorial / Practical \nESE \n(E) \nPA / \nCA \n(M) \nPA/C\nA (I)  \nPBL \n(I) \nESE \n(V) \n45 0 30 15 90 03 70 30 20 30 50 200 \nContent: \nCourse Content: \n \nUnit \nNo. Content No. of \nHours \n1 \nIntroduction: The AI Problems, The Underlying Assumption, AI techniques, The \nLevel of The Model, Criteria for Success \n2",
+        "type": "Document"
+    },
+    {
+        "id": null,
+        "metadata": {},
+        "page_content": "w.e.f. 2024-25 https://syllabus.gtu.ac.in/ Page 2 of 5 \n \nGUJARAT TECHNOLOGICAL UNIVERSITY \nProgram Name: Bachelor of Engineering \nLevel: UG  \nSubject Code: BE05000151 \nSubject Name:  Artificial Intelligence  \n \n2. \nProblems, State Space Search & Heuristic Search Techniques: Defining The \nProblems as a State Space Search, Production Systems, Production Characteristics, \nProduction System Characteristics and Issues in the Design of Search Programs, \nGenerate-And-Test, Hill Climbing, Best -First Search, Problem Reduction, \nConstraint Satisfaction, Means-Ends Analysis \n6 \n3. \nKnowledge Representation : Representations And Mappings, Approaches To \nKnowledge Representation, Representation Simple Facts In Logic, Representing \nInstance and Isa Relationships, Computable Functions and Predicates, Resolution, \nProcedural versus Declarative  Knowledge,  Logic  Programming,  Forward  \nversus Backward Reasoning. \n6 \n4. Symbolic Reasoning Under Uncertainty: Introduction to",
+        "type": "Document"
+    },
+    {
+        "id": null,
+        "metadata": {},
+        "page_content": "Procedural versus Declarative  Knowledge,  Logic  Programming,  Forward  \nversus Backward Reasoning. \n6 \n4. Symbolic Reasoning Under Uncertainty: Introduction to \nNonmonotonic Reasoning, Logics for Non-monotonic Reasoning \n6 \n5. Probabilistic Reasoning: Probability And Bays\u2019 Theorem, Certainty Factors and \nRule Base Systems, Bayesian Networks, Dempster- Shafer Theory, Fuzzy Logic 3 \n6. Game Playing: Overview, Min-Max Search Procedure, Alpha-Beta Cut-offs, \nRefinements, Iterative deepening. \n3 \n7. Planning: The Blocks World, Components of a Planning System, Goal Stack \nPlanning, Nonlinear Planning Using Constraint Posting, Hierarchical Planning, \nReactive Systems \n3 \n8. Natural Language & Language Models:  \nIntroduction to NLP: Basics of Natural Language Processing, Tokenization, \nstemming, lemmatization, Word embeddings.  \nEvolution of Language Models:  Statistical language models (n -grams), RNNs, \nLSTMs, and their limitations Transition to attention-based models.",
+        "type": "Document"
+    },
+    {
+        "id": null,
+        "metadata": {},
+        "page_content": "stemming, lemmatization, Word embeddings.  \nEvolution of Language Models:  Statistical language models (n -grams), RNNs, \nLSTMs, and their limitations Transition to attention-based models. \nTransformer Architecture: Encoder-decoder structure, Self-attention mechanism, \nPositional encoding, multi-head attention and feed-forward layers \nLarge Language Models:  Pre-training, Fine-tuning and transfer learning, Prompt \nengineering basics, Applications: chatbots, summarization, translation \nChallenges & Ethics:  Bias, fairness, and hallucination in LLMs, Energy \nconsumption and scalability, Alignment and safety concerns \n11 \n9. Introduction to Prolog : Introduction, Converting English to Prolog Facts and \nRules, Goals, Prolog Terminology, Variables, Control Structures,  Arithmetic \nOperators, Matching in Prolog, Backtracking, Cuts, Recursion, Lists \n5 \n \nSuggested Specification table with Marks (Theory): (For B.E. only) \n \nDistribution of Theory % Marks",
+        "type": "Document"
+    },
+    {
+        "id": null,
+        "metadata": {},
+        "page_content": "Operators, Matching in Prolog, Backtracking, Cuts, Recursion, Lists \n5 \n \nSuggested Specification table with Marks (Theory): (For B.E. only) \n \nDistribution of Theory % Marks  \nR Level U Level A Level N Level E Level C Level \n25 30 25 10 10 - \n \n R: Remembrance; U: Understanding; A: Application, N: Analyze and E: Evaluate C: Create and above \nLevels (Revised Bloom\u2019s Taxonomy) \nNote: This specification table shall be treated as a general guideline for students and teachers. The actual \ndistribution of marks in the question paper may vary slightly from above table.",
+        "type": "Document"
+    },
+    {
+        "id": null,
+        "metadata": {},
+        "page_content": "w.e.f. 2024-25 https://syllabus.gtu.ac.in/ Page 3 of 5 \n \nGUJARAT TECHNOLOGICAL UNIVERSITY \nProgram Name: Bachelor of Engineering \nLevel: UG  \nSubject Code: BE05000151 \nSubject Name:  Artificial Intelligence  \n \n \nReference Books: \n1. \u201cArtificial Intelligence\u201d -By Elaine Rich And Kevin Knight (2nd Edition) Tata Mcgraw-Hill \n2. \u201cArtificial Intelligence: A Modern Approach\u201d -By Stuart Russel, Peter Norvig, PHI \n3. \u201cIntroduction to Prolog Programming\u201d -By Carl Townsend. \n4. \u201cPROLOG Programming For Artificial Intelligence\u201d -By Ivan Bratko( Addison- \nWesley) \n5. \u201cProgramming with PROLOG\u201d \u2013By Klocksin and Mellish. \n \nList of Experiments: (List is tentative)  \n1. Write a program to implement Tic-Tac-Toe game problem. \n2. Write a program to implement BFS (for 8 puzzle problem or Water Jug problem or any AI search \nproblem) . \n3. Write a program to implement DFS (for 8 puzzle problem or Water Jug problem or any AI search \nproblem)",
+        "type": "Document"
+    },
+    {
+        "id": null,
+        "metadata": {},
+        "page_content": "problem) . \n3. Write a program to implement DFS (for 8 puzzle problem or Water Jug problem or any AI search \nproblem) \n4. Write a program to implement Single Player Game (Using any Heuristic Function) \n5. Write a program to Implement A* Algorithm. \n6. Write a program to implement mini-max algorithm for any game development. \n7. Assume given a set of facts of the form father(name1,name2) (name1 is the father of name2). \n8. Define a predicate brother(X,Y) which holds iff X and Y are brothers.  \n9. Define a predicate cousin(X,Y) which holds iff X and Y are cousins. \nDefine a predicate grandson(X,Y) which holds iff X is a grandson of Y. \nDefine a predicate descendent(X,Y) which holds iff X is a descendent of Y. \nConsider the following genealogical tree: \nfather(a,b). \nfather(a,c). \nfather(b,d). \nfather(b,e). \nfather(c,f). \nSay which answers, and in which order, are generated by your definitions for the following queries in \nProlog: \n?- brother(X,Y). \n?- cousin(X,Y). \n?- grandson(X,Y).",
+        "type": "Document"
+    },
+    {
+        "id": null,
+        "metadata": {},
+        "page_content": "father(b,e). \nfather(c,f). \nSay which answers, and in which order, are generated by your definitions for the following queries in \nProlog: \n?- brother(X,Y). \n?- cousin(X,Y). \n?- grandson(X,Y). \n?- descendent(X,Y). \n10. Write a program to solve Tower of Hanoi problem using Prolog. \n11. Write a program to solve N-Queens problem using Prolog. \n12. Write a program to solve 8 puzzle problem using Prolog. \n13. Write a program to solve travelling salesman problem using Prolog. \n \nList of Open Source Software/learning website: \n\uf0b7 https://nptel.ac.in/courses/106/105/106105077/ \n\uf0b7 http://www.journals.elsevier.com/artificial-intelligence \n\uf0b7 Large Language Model (LLM) Tutorial - GeeksforGeeks",
+        "type": "Document"
+    },
+    {
+        "id": null,
+        "metadata": {},
+        "page_content": "w.e.f. 2024-25 https://syllabus.gtu.ac.in/ Page 4 of 5 \n \nGUJARAT TECHNOLOGICAL UNIVERSITY \nProgram Name: Bachelor of Engineering \nLevel: UG  \nSubject Code: BE05000151 \nSubject Name:  Artificial Intelligence  \n \n        \nList of suggested activities for Term Work / Self Learning: \n \nSl. \nNo. \nName of the activity No. of hours Evaluation Criteria \n1 Assignment writing. Numerical \nbased \nassignment is preferable. \n5 assignments of 3h each. \nTotal = 15h \nBased on the assignment \nsubmitted. \n2 \nProblem solving/Coding using C, \nC++, Python, SCILAB, \nMATLAB, MS- \nEXCEL or any other \nrelevant software \n5 small coding-based \nproblems of 3h each. Total \n= 15h \nBased on the coding solution \nsubmitted. \n3 \nTechnical Video based \nlearning related to the \nsubject \nDuration of video = 5h \nReport preparation & \nPresentation  \n= 10h Total = 15h \nReport /presentation based \non the video learning \noutcomes. \n4 Discussion on research \npaper based on relevant subject",
+        "type": "Document"
+    },
+    {
+        "id": null,
+        "metadata": {},
+        "page_content": "Report preparation & \nPresentation  \n= 10h Total = 15h \nReport /presentation based \non the video learning \noutcomes. \n4 Discussion on research \npaper based on relevant subject \n3 research paper = 15h Summarize research \npaper and evaluation critical \nparameters \n5 Poster/chart/power point \npreparation on technical topics \nDuration = 10 h Based on poster/chart \npreparation and presentation \nskills \n6 Application/Software \ndevelopment \nDuration = 15 h Depending on the \ncomplexity of the \nApplication/Software \n7 Group Discussion on \nemerging/trending technical \ntopics based on \nsubject \nDuration = 1 h each Based on performance in group \ndiscussion, technical depth, \nknowledge etc. \n8 Seminar / Presentation Duration for study and \npreparation=5h Report \nwriting=3h \nPresentation=2h Total=10h \nTopic can be selected technical \ncontent beyond syllabus \n9 Real world case studies- based \nlearning \nDuration of data \ncollection/study = 5h \nReport preparation = 10h \nTotal = 15h",
+        "type": "Document"
+    },
+    {
+        "id": null,
+        "metadata": {},
+        "page_content": "Topic can be selected technical \ncontent beyond syllabus \n9 Real world case studies- based \nlearning \nDuration of data \ncollection/study = 5h \nReport preparation = 10h \nTotal = 15h \nBased on in-depth study, \ntechnical depth, data collected, \nfact finding, etc. \n10 Working/non- \nworking model on technical \ntopics \nWorking = 12 h Non- \nworking = 8 h \nBased on inter \ndepartment/external evaluation",
+        "type": "Document"
+    },
+    {
+        "id": null,
+        "metadata": {},
+        "page_content": "w.e.f. 2024-25 https://syllabus.gtu.ac.in/ Page 5 of 5 \n \nGUJARAT TECHNOLOGICAL UNIVERSITY \nProgram Name: Bachelor of Engineering \nLevel: UG  \nSubject Code: BE05000151 \nSubject Name:  Artificial Intelligence  \n \nNote:  \n\uf0b7 All the suggested activity should be related to the subject.  \n\uf0b7 Min 3 activities must be carried out as per the availability of faculties and students.  \n\uf0b7 The number of hours is suggestive. Faculty can sub-divide the number of hours based on the activity. \nHowever, total number of hours is fixed.  \n\uf0b7 Rubrics for the evaluation can be prepared by the faculty.  \n \n***********",
+        "type": "Document"
+    }
+]
