@@ -1,38 +1,21 @@
 from ingestion.chuker import Split_Documents
 from ingestion.loaders import load_pdf
 
+from embedding.sparse import SparseEmbedding
+from embedding.vector import DenseEmbedding
+
 # load the document
 pdf = load_pdf("src/Artifical Intelligence.pdf")
 
 chunked = Split_Documents(pdf)
 
-print(len(chunked))
+if chunked and hasattr(chunked[0], "page_content"):
+    # If Split_Documents returns LangChain Document objects:
+    texts = [doc.page_content for doc in chunked]
 
-# import json
-# json.dump(chunked, open("chunks.json", "w"), indent=4)
+dense_embedder = DenseEmbedding()
+sparse_embedder = SparseEmbedding()
 
-
-
-
-
-
-# testing the code in details
-
-# from ingestion.chuker import Split_Documents
-# from ingestion.loaders import load_pdf
-
-# pdf = load_pdf("src/Artifical Intelligence.pdf")
-
-# print("PDF type:", type(pdf))
-# print("Number of documents:", len(pdf))
-# print("First document:", pdf[0])
-# print("First document type:", type(pdf[0]))
-
-# chunked = Split_Documents(pdf)
-
-# print("Number of chunks:", len(chunked))
-# print("First chunk:", chunked[0])
-
-
-
+dense_embeddings = dense_embedder.embed_documents(texts)
+sparse_embeddings = sparse_embedder.embed_documents(texts)
 
