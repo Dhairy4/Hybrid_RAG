@@ -6,12 +6,15 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "fastembed>=0.9.0",
+    "flashrank>=0.2.10",
     "ggraph>=0.0.1",
     "ipykernel>=7.4.0",
     "langchain>=1.4.3",
     "langchain-community>=0.4.2",
     "langchain-core>=1.6.6",
+    "langchain-google-genai>=4.4.0",
     "langchain-nvidia-ai-endpoints>=1.4.3",
+    "langchain-qdrant>=1.1.0",
     "langchain-text-splitters>=1.1.2",
     "langfuse>=4.16.0",
     "langgraph>=1.2.12",
