@@ -17,10 +17,11 @@ class SparseEmbedding:
         with open(save_path, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2)
             
-        return sparse_vectors
+            return sparse_vectors
     def embed_query(self, query: str) -> Dict[str, List[Any]]:
-        embed = self.model.embed_query([query])[0]
+        embed = next(self.model.query_embed(query))
+
         return {
             "indices": embed.indices.tolist(),
-            "values": embed.values.tolist()
+            "values": embed.values.tolist(),
         }

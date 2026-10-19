@@ -17,14 +17,14 @@ def retrieve( query, dense_embedder, sparse_embedder, top_k= 5):
 
             models.Prefetch(
                 query= models.SparseVector(
-                    indices=sparse_query.indices, 
-                    values=sparse_query.values),
+                    indices=sparse_query["indices"], 
+                    values=sparse_query["values"]),
                 using="sparse",
                 limit= 20,
             ),
         ],
         query = models.FusionQuery(
-            strategy=models.Fusion.RRF
+            fusion  =models.Fusion.RRF
         ),
         limit = top_k,
         with_payload= True,

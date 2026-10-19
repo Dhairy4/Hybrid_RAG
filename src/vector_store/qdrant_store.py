@@ -8,22 +8,21 @@ client = QdrantClient(url="http://localhost:6333")
 
 def create_collection():
 
-    try:
-        if not client.get_collection(COLLECTION_NAME):
-            return
-    except Exception: 
-        client.create_collection(
-            collection_name=COLLECTION_NAME,
-            vectors_config= {
-                "dense": models.VectorParams(
-                    size=384,
-                    distance=models.Distance.COSINE
-                )
-            },
-            sparse_vectors_config={
-                "sparse": models.SparseVectorParams()
-            },
-        )
+    if client.collection_exists(COLLECTION_NAME):
+        return
+
+    client.create_collection(
+        collection_name=COLLECTION_NAME,
+        vectors_config= {
+            "dense": models.VectorParams(
+                size=384,
+                distance=models.Distance.COSINE
+            )
+        },
+        sparse_vectors_config={
+            "sparse": models.SparseVectorParams()
+        },
+    )
 
 def store_documents(documents, dense_vectors, sparse_vectors):
     points = []
